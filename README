@@ -4,5 +4,24 @@ https://github.com/peterkahl/status-404-find-best-match-page
 
 
 
-This PHP class...
+This PHP class catches all "soft errors 404" and finds the closest (best,
+most likely) candidate page name (URI) from a list of pages that exist.
+
+Soft error 404 is defined as one that is not initiated by the HTTP server.
+
+Hard error 404 is initiated by HTTP server.
+
+Functionality of this class depends on properly set up rewrite inside
+htaccess (or nginx configuration) file.
+
+NGINX example:
+
+server {
+	error_page  404  /index.php?page=/404/;
+	location / {
+        rewrite ^(/[a-zA-Z0-9\-/\s]*)$   /index.php?page=$1   last;
+    }
+}
+
+//----------------------------------------------------------------------
 
