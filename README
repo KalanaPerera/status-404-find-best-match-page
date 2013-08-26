@@ -7,7 +7,11 @@ https://github.com/peterkahl/status-404-find-best-match-page
 This PHP class catches all "soft errors 404" and finds the closest (best,
 most likely) candidate page name (URI) from a list of pages that exist.
 
-Soft error 404 is defined as one that is not initiated by the HTTP server.
+Soft error 404 is defined as one that is initiated by this PHP script:
+* The script compares the current request against a list of existant pages.
+* If match isn't found (soft error 404), a closes match is found.
+* The script replies with status 302 (permanent redirect) to the existant
+  page.
 
 Hard error 404 is initiated by HTTP server.
 
