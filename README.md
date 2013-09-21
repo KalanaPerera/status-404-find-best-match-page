@@ -32,3 +32,9 @@ server {
 }
 ```
 
+**Apache htaccess example:**
+
+```apache
+RewriteRule ^([a-z0-9/_-]+/)$ index.php?page=/$1 [NC]
+```
+
