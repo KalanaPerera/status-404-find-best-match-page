@@ -35,6 +35,7 @@ server {
 **Apache .htaccess example:**
 
 ```apache
+ErrorDocument 404 /index.php?page=/404/
 RewriteRule ^([a-z0-9_-]+/([a-z0-9_-]+/)*)$ index.php?page=/$1 [NC]
 ```
 
