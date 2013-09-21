@@ -19,7 +19,7 @@ Soft error 404 is defined as one that is initiated by this PHP script:
 Hard error 404 is initiated by HTTP server.
 
 Functionality of this class depends on properly set up rewrites inside
-htaccess (or nginx configuration) file.
+.htaccess (or nginx configuration) file.
 
 **NGINX example:**
 
@@ -32,9 +32,9 @@ server {
 }
 ```
 
-**Apache htaccess example:**
+**Apache .htaccess example:**
 
 ```apache
-RewriteRule ^([a-z0-9/_-]+/)$ index.php?page=/$1 [NC]
+RewriteRule ^([a-z0-9_-]+/([a-z0-9_-]+/)*)$ index.php?page=/$1 [NC]
 ```
 
