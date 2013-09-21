@@ -1,6 +1,8 @@
 Status 404 Find Best Match Page
 ===============================
 
+[![Build Status](https://travis-ci.org/peterkahl/status-404-find-best-match-page.png)](https://travis-ci.org/peterkahl/status-404-find-best-match-page)
+
 [https://github.com/peterkahl/status-404-find-best-match-page](https://github.com/peterkahl/status-404-find-best-match-page)
 
 About
