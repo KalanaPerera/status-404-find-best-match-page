@@ -1,7 +1,7 @@
 Status 404 Find Best Match Page
 ===============================
 
-Copyright (c) 2012-2013, Peter Kahl. All rights reserved.
+Copyright (c) 2012-2013, Peter Kahl. All rights reserved. www.colossalmind.com
 
 [https://github.com/peterkahl/status-404-find-best-match-page](https://github.com/peterkahl/status-404-find-best-match-page)
 

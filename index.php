@@ -2,6 +2,7 @@
 
 // Status 404 Find Best Match Page
 // Example of usage
+// www.colossalmind.com
 
 //-------
 // Sometimes, status 404 is triggered inside your HTTP server. In such case,
