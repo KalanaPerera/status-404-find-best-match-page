@@ -1,8 +1,18 @@
 <?php
 
-// Status 404 Find Best Match Page
-// Example of usage
-// www.colossalmind.com
+/**
+ *
+ * Status 404 Find Best Match Page
+ * Copyright (c) 2013 Peter Kahl. All rights reserved.
+ * Website: www.colossalmind.com
+ * Email/GPG key: see https://github.com/peterkahl/gpg
+ * Use of this source code is governed by a GNU General Public License
+ * that can be found in the LICENSE file.
+ * Version 1.0.0 ..... 2013-08-26
+ *
+ * https://github.com/peterkahl/status-404-find-best-match-page
+ *
+ */
 
 //-------
 // Sometimes, status 404 is triggered inside your HTTP server. In such case,
